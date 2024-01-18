@@ -18,7 +18,7 @@ module.exports = {
 		});
 	},
 
-	publicPath: process.env.NODE_ENV === 'production' ? '/dsweb/' : '/',
+	publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
 	assetsDir: 'static',
 	devServer: {
 		proxy: {
